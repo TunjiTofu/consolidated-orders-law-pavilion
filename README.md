@@ -105,16 +105,16 @@ php artisan migrate
 php artisan serve
 ```
 
-# Running the endpoints
-## Check the API documention for the endpoints
-## Run the following command to re-populate the consolidated_orders table every week at Sunday midnight.
+## Running the endpoints
+### Check the API documention for the endpoints
+### Run the following command to re-populate the consolidated_orders table every week at Sunday midnight.
 
-### Run the following (Docker users)
+#### Run the following (Docker users)
 ```bash
 sail artisan app:populate-consolidated-orders
 ```
 
-## Run the following (Traditional installation)
+#### Run the following (Traditional installation)
 ```bash
 php artisan app:populate-consolidated-orders
 ```
