@@ -20,6 +20,9 @@ return new class extends Migration
             $table->decimal('price', 10, 2);
             $table->softDeletes();
             $table->timestamps();
+
+            //Add index
+            $table->index(['order_id', 'product_id']);
         });
 
         Artisan::call('db:seed', ['--class' => 'OrderItemSeeder']);
