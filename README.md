@@ -65,7 +65,7 @@ DB_PASSWORD=password
 ```
 
 ### 4. Access the Application
-[Access the Application](http://localhost)
+[(http://localhost)](http://localhost)
 
 ## Further Improvements:
  - Authorization and Authentication implementation ✅
