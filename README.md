@@ -65,9 +65,7 @@ DB_PASSWORD=password
 ```
 
 ### 4. Access the Application
-[```bash
-php artisan serve
-```](http://localhost)
+[Access the Application](http://localhost)
 
 ## Further Improvements:
  - Authorization and Authentication implementation ✅
