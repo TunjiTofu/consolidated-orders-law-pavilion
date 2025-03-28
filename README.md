@@ -25,6 +25,7 @@ This Laravel application provides efficient export/import functionality for cons
 ```bash
 git clone https://github.com/TunjiTofu/consolidated-orders-law-pavilion.git
 cd consolidated-orders-law-pavilion
+composer install
 ```
 
 ### 2. Install dependencies using Sail's PHP 8.4 image
@@ -42,7 +43,7 @@ docker run --rm \
 ./vendor/bin/sail up -d
 ```
 
-### 4. Generate Key
+### 4. Environment Setup
 ```bash
 cp .env.example .env
 ./vendor/bin/sail artisan key:generate
@@ -66,6 +67,52 @@ DB_PASSWORD=password
 
 ### 4. Access the Application
 [(http://localhost)](http://localhost)
+
+
+## Option 2: Traditional Setup (No Docker)
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/your-repo/laravel-app.git
+cd laravel-app
+composer install
+```
+
+### 2. Environment Setup
+```bash
+cp .env.example .env
+./vendor/bin/sail artisan key:generate
+```
+### 3. Database Setup
+```bash
+DB_CONNECTION=mysql
+DB_HOST=mysql
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=sail
+DB_PASSWORD=password
+
+```
+
+### 4. Run Migrations
+```bash
+php artisan migrate
+```
+
+### 4. Start Development Server
+```bash
+php artisan serve
+```
+
+## Troubleshooting
+
+| Issue                  | Solution                          |
+|------------------------|-----------------------------------|
+| PHP 8.4 not found      | Verify installation with `php -v` |
+| Composer errors        | Run `composer self-update`        |
+| Sail not starting      | Check Docker Desktop is running   |
+| Database issues        | Verify credentials in `.env`      |
+
 
 ## Further Improvements:
  - Authorization and Authentication implementation ✅
