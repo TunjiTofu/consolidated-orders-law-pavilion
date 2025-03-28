@@ -8,16 +8,16 @@ This Laravel application provides efficient export/import functionality for cons
 - Excel file handling
 
 ## Prerequisites
--Git installed
--PHP ≥ 8.1 (for non-Docker)
--Composer (for non-Docker)
--Docker Desktop (if using Sail)
+- Git installed
+- PHP ≥ 8.1 (for non-Docker)
+- Composer (for non-Docker)
+- Docker Desktop (if using Sail)
 
--Git installed
--For Docker: Docker Desktop
--For Non-Docker:
-    -PHP 8.4
-    -Composer 2.6+
+- Git installed
+- For Docker: Docker Desktop
+- For Non-Docker:
+    - PHP 8.4
+    - Composer 2.6+
 
 ## Option 1: Docker Setup (Laravel Sail)
 
