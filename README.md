@@ -10,6 +10,7 @@ This Laravel application provides efficient export/import functionality for cons
 ## Prerequisites
 - Git installed
 - PHP ≥ 8.1 (for non-Docker)
+- Larave ≥ 10
 - Composer (for non-Docker)
 - Docker Desktop (if using Sail)
 
