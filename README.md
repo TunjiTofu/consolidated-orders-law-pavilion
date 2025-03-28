@@ -120,5 +120,5 @@ php artisan serve
  - Ability to specify custom download path ✅
 
 ## API Documentation
-[Click this Link Access the API Documentation](https://app.gitbook.com/o/XXNaAkNtCMRanbfyrTQm/s/ItbDDRlpa0Wz2QwfIG8F/~/changes/gruTgx99ts0O1WV5Af8O/)
+[Click this Link Access the API Documentation](https://documenter.getpostman.com/view/17648045/2sB2cPhjCH)
 
